@@ -1,0 +1,5 @@
+print("diques una base imponible")
+base=float(input())
+print("digues el tipus d'IVA")
+t_iva=float(input())
+print(base+(base*t_iva//100))
